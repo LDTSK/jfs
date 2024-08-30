@@ -1,0 +1,21 @@
+*{
+    background-color:silver;
+}
+h1{
+    background-color:antiquewhite;
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+}
+h2{
+    background-color: antiquewhite;
+    font-family:cursive ;
+    font-size: large;
+    text-align: center;
+}
+h3{
+    background-color: antiquewhite;
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+}
