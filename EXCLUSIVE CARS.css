@@ -1,20 +1,19 @@
 *{
-    background-color:silver;
-}
+    background-color:black;
 h1{
-    background-color:antiquewhite;
+    background-color:rgb(22, 17, 10);
     text-align: center;
     font-family: cursive;
     font-size: larger;
 }
 h2{
-    background-color: antiquewhite;
+    background-color: rgb(17, 15, 12);
     font-family:cursive ;
     font-size: large;
     text-align: center;
 }
 h3{
-    background-color: antiquewhite;
+    background-color: rgb(19, 16, 12);
     font-family: cursive;
     font-size: large;
     text-align: center;
