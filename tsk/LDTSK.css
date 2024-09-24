@@ -1,0 +1,59 @@
+*{
+    margin 0;
+    padding:0;
+    position:relative;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0f0d0d;
+    color: #ffffff;
+}
+nav{
+    padding: 0 10px;
+
+}
+nav .logo image{
+    object-fit: contain;
+    max width:10%;
+
+}
+nav .actions{
+    display: flex;
+
+}
+nav .buttons log in{
+    background-color: beige;
+    margin: 0 10px;
+}
+nav .buttons sign in{
+    background-color: antiquewhite;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+.banner{
+    background: linear-gradient(90deg,#181818 10,hsla(0,0%,9%,.987) 1.62%,hsla(0,0%,9%,.951) 3.1%,hsla(0,0%,9%,.896) 4.5%,hsla(0,0%,9%,.825) 5.8%,hsla(0,0%,9%,.741) 7.06%,hsla(0,0%,9%,.648) 8.24%,hsla(0,0%,9%,.55) 9.42%,hsla(0,0%,9%,.45) 10.58%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 14.2%,hsla(0,0%,9%,.104) 15.5%,hsla(0,0%,9%,.049) 16.9%,hsla(0,0%,9%,.013) 18.38%,hsla(0,0%,9%,0) 20%);
+    background-size: cover;
+    background-position: centre centre;
+    max-width 70%;
+    background-repeat: no-repeat;
+    height:100vh;
+    margin: 70px;
+}
+.bannercontent .bannertitle h1{ 
+    position: relative;
+    font-size: 100px;
+    padding: 0px 10px;
+    font-family: monospace;
+
+}
+.bannercomtent .bannertitle h2{
+    font-size: 50px;
+    padding: 0px 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.bannercontent .bannertitle h3{
+    font-size: 30px;
+    padding: 0% 10px; 
+}
+
