@@ -4,34 +4,52 @@
     box-sizing: border-box;
     font-family: monospace;
 }
-body{
+body
+{
  backface-visibility: hidden;
 }
-nav{
+nav
+{
     display: flex;
     justify-content: space-between;
-} nav img{
+} nav img
+{
     max-width: 100%;
     object-fit: cover;
 }
-nav action{
+nav action
+{
     display: flex;
     background-color: aqua;
     padding: 8px 16px;
     margin: 4px 8px;
 }
-.card-container{
+.card-container
+{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 10px;
 }
-.card{
+.card
+{
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
 
-}.card-img{
-    width: 100px;
-    height: 100px;
+}
+.card-img{
+    width: 100%;
+    height: auto;
+    margin: 12px;
+}
+.card-descrption{
+    padding: 8px;
+}
+.card-descrption h3{
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.card-descrption p{
+    margin: 10px;
 }
