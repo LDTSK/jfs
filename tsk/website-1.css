@@ -29,6 +29,9 @@ nav action{
 .card{
     border-radius: 8px;
     overflow: hidden;
-    margin: 2px;
+    margin: 20px;
 
+}.card-img{
+    width: 100px;
+    height: 100px;
 }
