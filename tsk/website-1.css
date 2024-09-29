@@ -42,6 +42,7 @@ nav action
     width: 100%;
     height: auto;
     margin: 12px;
+    display: flex;
 }
 .card-descrption{
     padding: 8px;
