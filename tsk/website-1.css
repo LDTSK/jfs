@@ -1,12 +1,11 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: monospace;
+   
 }
-body
-{
- backface-visibility: hidden;
+body{
+    max-width:100%;
+    justify-content: space-between;
 }
 nav
 {
@@ -25,36 +24,19 @@ nav action
     margin: 4px 8px;
 }
 
-.card
-{
+.container{
+    width: 110px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 10px;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 0px 3px;
+    justify-content:center;
 
 }
-.card-img{
-    width: 100%;
-    height: auto;
-    padding: 0px 4px;
-    margin: 12px;
-    display: flex;
-    justify-content: center;
-}
-.card-descrption{
-    padding: 8px;
-}
-.card-descrption h3{
-    padding: 8px;
-    margin-bottom: 10px;
-}
-.card-descrption p{
-    margin: 10px;
-}
-.card:hover{
-    transition: 0.9s;
-    box-shadow: 0px 2px 4px 8px;
+.card{
+    margin: 10px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    padding: 10px 20px;
+  
 }
