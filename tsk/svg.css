@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+svg path:nth-child(1) {
+    stroke-dasharray: 3px;
+}
