@@ -62,34 +62,44 @@ nav .buttons sign in{
     background-size: contain;
 
 }
-footer{
-    padding: 50px 4% 10px;
-    color: #666;
+footer {
+    background-color: #141414;
+    color: #fff;
+    padding: 20px;
 }
-footer .h1{
-    font-size: 1.2rem;
-    font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 0 30px 0;
-    color: #666;
-}
-footer .row{
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
     display: flex;
-    align-items: start;
-    padding: 10px 0px;
-}
-footer .column{
-    margin: 10px 50px;
-   
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+.footer-section {
+    flex: 1;
+    min-width: 200px; /* Ensures sections don't get too narrow */
+    margin: 10px 0;
+}
 
+.footer-section h4 {
+    margin-bottom: 10px;
+}
 
-footer .column a{
+.footer-section a {
+    color: #fff;
     text-decoration: none;
-    color: #666;
-    font-size: 0.2rem;
-    padding:8px;
-    display: block;
+    margin: 5px 0;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #e50914; /* Change to Netflix red on hover */
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
 }
 
